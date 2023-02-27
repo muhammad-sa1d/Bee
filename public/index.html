@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Log in</title>
+  </head>
+
+  <body class="bg-brand-white lg:h-screen flex items-center justify-center">
+    <!-- hero -->
+    <section id="hero">
+      <div class="max-w-1099 w-full mx-auto px-5 py-5">
+        <div class="grid lg:grid-cols-2 lg:gap-32 xs:gap-24 gap-8 items-center">
+          <div>
+            <img src="image/imge.png" alt="" class="w-full" />
+          </div>
+          <div
+            class="bg-white shadow-lg rounded-3xl xs:py-52 py-9 xs:px-10 px-5"
+          >
+            <div class="flex flex-col justify-center">
+              <p
+                class="font-bold xs:text-base text-sm text-brand-grey mb-4 text-center"
+              >
+                WELCOME
+              </p>
+              <h3
+                class="font-extrabold xs:text-4xl text-2xl text-brand-black xs:mb-8 mb-4 text-center"
+              >
+                Log In
+              </h3>
+              <form action="">
+                <div class="bg-brand-white py-3 px-5 rounded-lg w-full mb-5">
+                  <p class="font-extrabold text-sm text-brand-black mb-1">
+                    Email / Mobile Number
+                  </p>
+                  <input
+                    type="email"
+                    placeholder="Enter Email / Mobile Number"
+                    class="bg-brand-white outline-none placeholder:text-base placeholder:text-brand-grey-2"
+                  />
+                </div>
+                <div class="bg-brand-white py-3 px-5 rounded-lg w-full mb-5">
+                  <p class="font-extrabold text-sm text-brand-black mb-1">
+                    Password
+                  </p>
+                  <div class="flex items-center justify-between">
+                    <input
+                      type="password"
+                      id="pass"
+                      placeholder="Enter Password"
+                      class="bg-brand-white outline-none placeholder:text-base placeholder:text-brand-grey-2"
+                    />
+                    <input
+                      type="checkbox"
+                      id="check"
+                      class="accent-brand-black xs:w-7 w-5 accent-p"
+                      onclick="showPass();"
+                    />
+                  </div>
+                </div>
+                <div class="flex justify-between items-center mb-10">
+                  <div class="flex gap-2">
+                    <input
+                      type="checkbox"
+                      class="accent-brand-black xs:w-7 w-5 accent-p"
+                    />
+                    <p class="xs:text-sm text-xs text-brand-black">
+                      Remember me
+                    </p>
+                  </div>
+                  <div>
+                    <a
+                      href="#"
+                      class="font-extrabold xs:text-sm text-xs text-brand-red text-right"
+                      >Forgot password?</a
+                    >
+                  </div>
+                </div>
+                <a class="flex justify-center items-center mb-5">
+                  <button
+                    type="reset"
+                    class="bg-brand-grey-3 rounded-full py-3 xs:w-300 w-full lg:hover:bg-hhh active:bg-hhh lg:hover:duration-300 font-bold text-white text-xl text-center"
+                  >
+                    Log In
+                  </button>
+                </a>
+              </form>
+              <p class="text-base text-brand-grey text-center">
+                New user?
+                <a href="sign.html" class="font-extrabold text-brand-red"
+                  >Sign up</a
+                >
+                for an account now.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/app.js"></script>
+  </body>
+</html>
