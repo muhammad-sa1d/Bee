@@ -28,7 +28,7 @@ module.exports = {
         '620': '620px',
       },
       backgroundImage:{
-        hhh:"radial-gradient(100% 1800% at 100% 0%, #FF626A 0%, #ED1C24 100%)"
+        gradent:"radial-gradient(100% 1800% at 100% 0%, #FF626A 0%, #ED1C24 100%)"
       },
       screens: {
         'xs': '461px',

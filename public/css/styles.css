@@ -676,7 +676,7 @@ video {
   --tw-text-opacity: 1;
   color: rgb(170 170 170 / var(--tw-text-opacity));
 }
-.active\:bg-hhh:active {
+.active\:bg-gradent:active {
   background-image: radial-gradient(100% 1800% at 100% 0%, #FF626A 0%, #ED1C24 100%);
 }
 .active\:text-brand-red:active {
@@ -779,7 +779,7 @@ video {
     gap: 8rem;
   }
 
-  .lg\:hover\:bg-hhh:hover {
+  .lg\:hover\:bg-gradent:hover {
     background-image: radial-gradient(100% 1800% at 100% 0%, #FF626A 0%, #ED1C24 100%);
   }
 
